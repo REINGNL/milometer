@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textMillId"
+        android:layout_width="285dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="Mill ID" />
+
+
+    <TextView
+        android:id="@+id/textMillStatus"
+        android:layout_width="286dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textMillId"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35sp"
+        android:layout_marginEnd="100dp"
+        android:text="Status" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textMillId"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="21dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/logo"
+        />
+
+</RelativeLayout>

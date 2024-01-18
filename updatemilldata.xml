@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/update_mill_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mill Name" />
+
+    <EditText
+        android:id="@+id/update_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status" />
+
+    <EditText
+        android:id="@+id/update_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stream" />
+
+    <EditText
+        android:id="@+id/update_steam_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steam Pressure" />
+
+    <EditText
+        android:id="@+id/update_steam_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steam Flow" />
+
+    <EditText
+        android:id="@+id/update_water_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Water Level" />
+
+    <EditText
+        android:id="@+id/update_power_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Power Frequency" />
+
+    <EditText
+        android:id="@+id/update_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mode" />
+
+    <EditText
+        android:id="@+id/update_proxy_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proxy Port" />
+
+    <EditText
+        android:id="@+id/update_tunnel_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunnel Port" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update" />
+
+</RelativeLayout>
